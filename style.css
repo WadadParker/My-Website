@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
     font-family: 'Open Sans', sans-serif;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 :root {
     --primary-color: #22d3ee; 
     --dark-grey: #94a3b8;
+    --light-grey: #f1f5f9;
 }
 
 hr {
@@ -19,12 +22,14 @@ a {
 
 .link {
     padding: 0.5rem 1rem;
+    
 }
 
 .link-primary {
     background-color: var(--primary-color);
     color:white;
     border-radius: 1rem;
+    margin:1rem;
 }
 
 
@@ -32,7 +37,15 @@ a {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid cyan;
+    margin:1rem;
 }
+.link-active {
+        font-weight: bold;
+}
+
+
+
+
 .list-inline {
     list-style: none;
     display: inline;
@@ -90,4 +103,39 @@ nav {
     text-align: center;
     font-size:1.6rem;
     padding-top:0.5rem;
+} 
+
+.section-white {
+    text-align: center;
+    padding:2rem;
 }
+
+.section-gray {
+    text-align: center;
+    padding:2rem;
+    background-color:var(--light-grey);
+    border-radius: 1rem;
+    
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding:0.5rem;
+    text-align: center;
+    border-radius: 1rem;
+    color:white;
+}
+
+.footer-list {
+    text-align: center;
+    padding-inline-start:0rem;
+}
+
+.footer-inline {
+    list-style: none;
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+

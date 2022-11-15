@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 body {
     font-family: 'Open Sans', sans-serif;
-    margin-left: 10rem;
-    margin-right: 10rem;
+    /* margin-left: 20rem;
+    margin-right: 20rem; */
+    margin: auto;
+    max-width: 80rem;
 }
 
 :root {
@@ -29,7 +31,7 @@ a {
     background-color: var(--primary-color);
     color:white;
     border-radius: 1rem;
-    margin:1rem;
+    margin:1.5rem 0.5rem;
 }
 
 
@@ -37,7 +39,7 @@ a {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid cyan;
-    margin:1rem;
+    margin:1.5rem 0.5rem;
 }
 .link-active {
         font-weight: bold;
@@ -51,6 +53,10 @@ a {
     display: inline;
     padding: 0.5rem 1rem;
 }
+.list-non-bullet {
+    list-style: none;
+}
+
 
 nav {
     background-color: var(--primary-color);
@@ -118,6 +124,15 @@ nav {
     
 }
 
+.section-head {
+    font-size: 1.3rem;
+}
+
+.section-para {
+    padding-bottom: 1rem;
+}
+
+
 footer {
     background-color: var(--primary-color);
     padding:0.5rem;
@@ -138,4 +153,7 @@ footer {
     padding-right: 1rem;
     
 }
+
+/* Project style */
+
 

@@ -155,6 +155,17 @@ footer {
     
 }
 
-/* Project style */
+.blog {
+    text-align: center;
+    margin-top: 4rem;
+}
 
+.blog-link {
+    font-size: 1.3rem;
+    padding: 1rem 3rem;
+    border-radius: 1rem;
+}
 
+.blog-span {
+    font-size: 1.5rem;
+}
